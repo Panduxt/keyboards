@@ -1,0 +1,70 @@
+.keyboard{
+	padding: 5px;
+	border-radius: 4px;
+	position: relative;
+}
+
+.line::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.key{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: 1px solid gray;
+	border-radius: 4px;
+	margin: 5px;
+	padding: 4px;
+	text-align: center;
+	line-height: 33px;
+	text-transform: uppercase;
+}
+
+.key:hover{
+	color: #fff;
+	background-color: slategray;
+	cursor: pointer;
+}
+
+.backspece{
+	width: auto;
+}
+
+.tab, .capslook{
+	width: 60px;
+}
+
+.lshift{
+	width: 72px;
+}
+
+.rshift{
+	width: 72px;
+}
+
+.rctrl, .lctrl{
+	width: 69px;
+}
+
+.cpacs{
+	width: 248px;
+}
+.windows{
+	width: 25px;
+	padding-top: 7px;
+}
+
+.latterkey{
+	font-size: 10px;
+	line-height: 100%;
+}
+.enter{
+	position: absolute;
+    right: 476px;
+    top: 71px;
+    width: 45px;
+    height: 90px;
+}
